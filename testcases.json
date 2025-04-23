@@ -1,0 +1,16 @@
+[
+    {
+        "case_id": 1,
+        "case_name": "Switch Interfaces Connectivity Test",
+        "script_type": "python",
+        "script_path": "scripts/port_connectivity.py",
+        "expect_rule": {"match": "Port is connected"}
+    },
+    {
+        "case_id": 2,
+        "case_name": "VLAN Configuration Test",
+        "script_type": "python",
+        "script_path": "scripts/vlan_config_verify.py",
+        "expect_rule": {"match": "VLAN configured successfully"}
+    }
+]
